@@ -78,7 +78,7 @@ export default function HomeHeroSection() {
             initial={{ width: 0 }}
             animate={{ width: "100%" }}
             transition={{ duration: 1.5, delay: 1, ease: "easeOut" }}
-            className="h-px bg-gradient-to-r from-transparent via-stone-300 to-transparent max-w-md mx-auto"
+            className="h-px bg-gradient-to-r from-transparent via-sage-300 to-transparent max-w-md mx-auto"
           />
           <motion.p
             initial={{ opacity: 0 }}
