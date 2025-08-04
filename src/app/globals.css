@@ -37,10 +37,47 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+
+  /* Custom Palettes: Sage */
+  --color-sage-50: oklch(0.985 0.002 143.2);
+  --color-sage-100: oklch(0.963 0.004 143.2);
+  --color-sage-200: oklch(0.882 0.01 143.2);
+  --color-sage-300: oklch(0.765 0.03 143.2);
+  --color-sage-400: oklch(0.648 0.058 143.2);
+  --color-sage-500: oklch(0.53 0.08 143.2);
+  --color-sage-600: oklch(0.42 0.075 143.2);
+  --color-sage-700: oklch(0.33 0.06 143.2);
+  --color-sage-800: oklch(0.28 0.05 143.2);
+  --color-sage-900: oklch(0.24 0.04 143.2);
+
+  /* Cream */
+  --color-cream-50: oklch(0.99 0.001 100);
+  --color-cream-100: oklch(0.97 0.004 100);
+  --color-cream-200: oklch(0.91 0.02 100);
+  --color-cream-300: oklch(0.83 0.05 100);
+  --color-cream-400: oklch(0.75 0.09 100);
+  --color-cream-500: oklch(0.66 0.13 100);
+  --color-cream-600: oklch(0.58 0.14 100);
+  --color-cream-700: oklch(0.48 0.12 100);
+  --color-cream-800: oklch(0.39 0.11 100);
+  --color-cream-900: oklch(0.32 0.1 100);
+
+  /* Earth */
+  --color-earth-50: oklch(0.98 0.002 80);
+  --color-earth-100: oklch(0.94 0.005 80);
+  --color-earth-200: oklch(0.86 0.012 80);
+  --color-earth-300: oklch(0.76 0.025 80);
+  --color-earth-400: oklch(0.66 0.04 80);
+  --color-earth-500: oklch(0.57 0.06 80);
+  --color-earth-600: oklch(0.5 0.065 80);
+  --color-earth-700: oklch(0.42 0.06 80);
+  --color-earth-800: oklch(0.35 0.05 80);
+  --color-earth-900: oklch(0.29 0.04 80);
 }
 
 :root {
@@ -78,40 +115,6 @@
   --sidebar-accent-foreground: oklch(0.21 0.034 264.665);
   --sidebar-border: oklch(0.928 0.006 264.531);
   --sidebar-ring: oklch(0.707 0.022 261.325);
-
-  /* Custom Palettes */
-  --sage-50: #f7f9f7;
-  --sage-100: #eef2ee;
-  --sage-200: #d9e2d9;
-  --sage-300: #b8c9b8;
-  --sage-400: #8fa98f;
-  --sage-500: #6b8a6b;
-  --sage-600: #547054;
-  --sage-700: #445944;
-  --sage-800: #394a39;
-  --sage-900: #323e32;
-
-  --cream-50: #fefdf9;
-  --cream-100: #fdf9f0;
-  --cream-200: #faf1e0;
-  --cream-300: #f5e6c8;
-  --cream-400: #eed5a3;
-  --cream-500: #e4c078;
-  --cream-600: #d4a853;
-  --cream-700: #b18d3f;
-  --cream-800: #8f7135;
-  --cream-900: #755d2e;
-
-  --earth-50: #f9f7f4;
-  --earth-100: #f1ede6;
-  --earth-200: #e2d9cc;
-  --earth-300: #cfc0a8;
-  --earth-400: #b8a082;
-  --earth-500: #a68665;
-  --earth-600: #987659;
-  --earth-700: #7f614c;
-  --earth-800: #685041;
-  --earth-900: #554237;
 }
 
 .dark {
@@ -160,92 +163,5 @@
 @layer utilities {
   .text-balance {
     text-wrap: balance;
-  }
-
-  /* Custom Palette Utilities */
-  .bg-sage-50 {
-    background-color: var(--sage-50);
-  }
-  .bg-sage-100 {
-    background-color: var(--sage-100);
-  }
-  .bg-sage-200 {
-    background-color: var(--sage-200);
-  }
-  .bg-sage-300 {
-    background-color: var(--sage-300);
-  }
-  .bg-sage-400 {
-    background-color: var(--sage-400);
-  }
-  .bg-sage-500 {
-    background-color: var(--sage-500);
-  }
-  .bg-sage-600 {
-    background-color: var(--sage-600);
-  }
-
-  .bg-cream-50 {
-    background-color: var(--cream-50);
-  }
-  .bg-cream-100 {
-    background-color: var(--cream-100);
-  }
-  .bg-cream-200 {
-    background-color: var(--cream-200);
-  }
-  .bg-cream-300 {
-    background-color: var(--cream-300);
-  }
-
-  .bg-earth-50 {
-    background-color: var(--earth-50);
-  }
-  .bg-earth-100 {
-    background-color: var(--earth-100);
-  }
-  .bg-earth-200 {
-    background-color: var(--earth-200);
-  }
-
-  .text-sage-600 {
-    color: var(--sage-600);
-  }
-  .text-sage-700 {
-    color: var(--sage-700);
-  }
-  .text-sage-800 {
-    color: var(--sage-800);
-  }
-
-  .text-cream-600 {
-    color: var(--cream-600);
-  }
-  .text-cream-700 {
-    color: var(--cream-700);
-  }
-
-  .text-earth-600 {
-    color: var(--earth-600);
-  }
-  .text-earth-700 {
-    color: var(--earth-700);
-  }
-  .text-earth-800 {
-    color: var(--earth-800);
-  }
-
-  .border-sage-200 {
-    border-color: var(--sage-200);
-  }
-  .border-sage-300 {
-    border-color: var(--sage-300);
-  }
-
-  .border-cream-200 {
-    border-color: var(--cream-200);
-  }
-  .border-cream-300 {
-    border-color: var(--cream-300);
   }
 }
