@@ -1,10 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import { ShoppingCart, X } from "lucide-react";
+import { ShoppingCart } from "lucide-react";
 import { motion } from "motion/react";
 import { Button } from "../ui/button";
-import { Dialog, DialogContent, DialogHeader } from "../ui/dialog";
+import { Dialog, DialogContent } from "../ui/dialog";
 import { useState } from "react";
 import { DialogTitle } from "@radix-ui/react-dialog";
 

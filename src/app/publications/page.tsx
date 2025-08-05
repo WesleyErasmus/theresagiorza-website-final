@@ -298,8 +298,8 @@ export default function PublicationsPage() {
               Publications
             </h1>
             <p className="text-stone-600 text-lg max-w-3xl mx-auto">
-              Research contributions to early childhood education, posthumanist
-              pedagogies, and decolonial educational practices
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Corrupti, maxime.
             </p>
           </motion.div>
           {/* Filters */}
