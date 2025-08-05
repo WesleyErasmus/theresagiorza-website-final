@@ -53,8 +53,8 @@ export default function ProjectsPage() {
               Images & Project Gallery
             </h1>
             <p className="text-stone-600 text-lg max-w-3xl mx-auto">
-              Visual documentation of research, artwork, and collaborative
-              projects
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Corrupti, maxime.
             </p>
           </motion.div>
           <GalleryGrid galleryItems={galleryItems} />

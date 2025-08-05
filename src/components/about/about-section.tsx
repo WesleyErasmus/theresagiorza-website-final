@@ -1,6 +1,5 @@
 "use client";
 
-import { GraduationCap, MapPin } from "lucide-react";
 import { motion } from "motion/react";
 import Image from "next/image";
 import React from "react";

@@ -50,8 +50,8 @@ export default function BooksPage() {
               Books
             </h1>
             <p className="text-stone-600 text-lg max-w-3xl mx-auto">
-              Published works exploring posthumanist pedagogies and
-              transformative educational practices
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Corrupti, maxime.
             </p>
           </motion.div>
 
