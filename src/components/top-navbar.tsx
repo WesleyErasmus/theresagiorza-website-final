@@ -12,8 +12,8 @@ const navigationItems = [
   { name: "About", href: "/about" },
   { name: "Publications", href: "/publications" },
   { name: "Books", href: "/books" },
-  { name: "Projects", href: "/projects" },
-  { name: "Gallery", href: "/gallery" },
+  // { name: "Projects", href: "/projects" },
+  { name: "Projects & Gallery", href: "/projects" },
   { name: "Contact", href: "/contact" },
 ];
 export default function TopNavbar() {
