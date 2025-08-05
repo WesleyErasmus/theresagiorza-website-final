@@ -26,7 +26,7 @@ export default function AboutSection() {
                   }}
                   transition={{ duration: 6, repeat: 999999 }}
                 />
-                <div className="relative bg-white p-1 rounded-xl shadow-2xl">
+                <div className="relative rounded-xl shadow-2xl">
                   <Image
                     src="/images/theresa-square.jpg"
                     alt="Dr. Theresa Giorza"

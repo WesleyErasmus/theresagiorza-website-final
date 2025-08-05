@@ -20,8 +20,8 @@ const publications: Publication[] = [
     id: 1,
     title:
       "An ecological perspective on children's play with digital technologies in South Africa and the United Kingdom",
-    type: "Article",
-    year: 2023,
+    type: "Research Article",
+    date: "Jan 2023",
     authors: ["Fiona Scott", "J. Marsh", "Karin Murris", "E. Scholey"],
     journal: "Digital Education Review",
     abstract:
@@ -32,8 +32,8 @@ const publications: Publication[] = [
     id: 2,
     title:
       "Meandering as learning: Co-creating care with Camissa Oceans in higher education",
-    type: "Article",
-    year: 2023,
+    type: "Research Article",
+    date: "Feb 2023",
     authors: ["Aaniyah Martin", "Joanne Peers", "Theresa Giorza"],
     journal: "Educational Philosophy and Theory",
     abstract:
@@ -44,8 +44,8 @@ const publications: Publication[] = [
     id: 3,
     title:
       "'Draw yourself and write your name': Material-discursive agency of names and drawings in early childhood",
-    type: "Article",
-    year: 2022,
+    type: "Research Article",
+    date: "Mar 2022",
     authors: ["Theresa Giorza"],
     journal: "Contemporary Issues in Early Childhood",
     abstract:
@@ -56,8 +56,8 @@ const publications: Publication[] = [
     id: 4,
     title:
       "Researching digital inequalities in children's play with technology in South Africa",
-    type: "Article",
-    year: 2022,
+    type: "Research Article",
+    date: "Apr 2022",
     authors: [
       "Karin Murris",
       "Fiona Scott",
@@ -72,8 +72,8 @@ const publications: Publication[] = [
   {
     id: 5,
     title: "The Art of Learning with Trees",
-    type: "Chapter",
-    year: 2021,
+    type: "Book Chapter",
+    date: "May 2021",
     authors: ["Theresa Giorza"],
     book: "Learning with Damaged Colonial Places",
     abstract:
@@ -83,8 +83,8 @@ const publications: Publication[] = [
   {
     id: 6,
     title: "Owning Up",
-    type: "Chapter",
-    year: 2021,
+    type: "Book Chapter",
+    date: "Jun 2021",
     authors: ["Theresa Giorza"],
     book: "Learning with Damaged Colonial Places",
     abstract:
@@ -94,8 +94,8 @@ const publications: Publication[] = [
   {
     id: 7,
     title: "Writing with the Park",
-    type: "Chapter",
-    year: 2021,
+    type: "Book Chapter",
+    date: "Jul 2021",
     authors: ["Theresa Giorza"],
     book: "Learning with Damaged Colonial Places",
     abstract:
@@ -105,8 +105,8 @@ const publications: Publication[] = [
   {
     id: 8,
     title: "Public Places as Learning Spaces",
-    type: "Chapter",
-    year: 2021,
+    type: "Book Chapter",
+    date: "Aug 2021",
     authors: ["Theresa Giorza"],
     book: "Learning with Damaged Colonial Places",
     abstract:
@@ -116,8 +116,8 @@ const publications: Publication[] = [
   {
     id: 9,
     title: "B(e)aring Wit(h)ness",
-    type: "Chapter",
-    year: 2021,
+    type: "Book Chapter",
+    date: "Sep 2021",
     authors: ["Theresa Giorza"],
     book: "Learning with Damaged Colonial Places",
     abstract:
@@ -127,19 +127,19 @@ const publications: Publication[] = [
   {
     id: 10,
     title: "Windfall",
-    type: "Chapter",
-    year: 2021,
+    type: "Book Chapter",
+    date: "Nov 2021",
     authors: ["Theresa Giorza"],
     book: "Learning with Damaged Colonial Places",
     abstract:
-      "Early years learning spaces as evolving art installations centered on children's thinking work.",
+      "Early dates learning spaces as evolving art installations centered on children's thinking work.",
     isFullText: false,
   },
   {
     id: 11,
     title: "Diffractive Encounters with Names",
-    type: "Chapter",
-    year: 2021,
+    type: "Book Chapter",
+    date: "Dec 2021",
     authors: ["Theresa Giorza"],
     book: "Learning with Damaged Colonial Places",
     abstract:
@@ -149,19 +149,19 @@ const publications: Publication[] = [
   {
     id: 12,
     title: "Setting off",
-    type: "Chapter",
-    year: 2021,
+    type: "Book Chapter",
+    date: "Jan 2021",
     authors: ["Theresa Giorza"],
     book: "Learning with Damaged Colonial Places",
     abstract:
-      "Educational research with five-year-olds in inner-city Johannesburg preschool context.",
+      "Educational research with five-date-olds in inner-city Johannesburg preschool context.",
     isFullText: false,
   },
   {
     id: 13,
     title: "Fantasy Beyond the Corner",
-    type: "Chapter",
-    year: 2021,
+    type: "Book Chapter",
+    date: "Feb 2021",
     authors: ["Theresa Giorza"],
     book: "Learning with Damaged Colonial Places",
     abstract:
@@ -171,8 +171,8 @@ const publications: Publication[] = [
   {
     id: 14,
     title: "'seeing' with/in the world: becoming-little",
-    type: "Article",
-    year: 2021,
+    type: "Research Article",
+    date: "Mar 2021",
     authors: ["Theresa Giorza", "Karin Murris"],
     journal: "Childhood",
     abstract:
@@ -184,7 +184,7 @@ const publications: Publication[] = [
     title:
       "Learning with Damaged Colonial Places: Posthumanist Pedagogies from a Joburg Preschool",
     type: "Book",
-    year: 2021,
+    date: "Apr 2021",
     authors: ["Theresa Giorza"],
     publisher: "Palgrave Macmillan",
     abstract:
@@ -195,8 +195,8 @@ const publications: Publication[] = [
     id: 16,
     title:
       "Anti-Colonial Orientations to Place: Unsettling Encounters with South African Educational Landscapes",
-    type: "Article",
-    year: 2020,
+    type: "Research Article",
+    date: "May 2020",
     authors: [
       "Karin Murris",
       "Sieraaj Francis",
@@ -211,8 +211,8 @@ const publications: Publication[] = [
   {
     id: 17,
     title: "Videography as Refrain",
-    type: "Article",
-    year: 2019,
+    type: "Research Article",
+    date: "Jun 2019",
     authors: ["Theresa Giorza"],
     journal: "Visual Studies",
     abstract:
@@ -222,8 +222,8 @@ const publications: Publication[] = [
   {
     id: 18,
     title: "Beyond words",
-    type: "Chapter",
-    year: 2018,
+    type: "Book Chapter",
+    date: "Jul 2018",
     authors: ["Theresa Giorza", "Joanna Haynes"],
     book: "Philosophy with Children",
     abstract:
@@ -234,8 +234,8 @@ const publications: Publication[] = [
     id: 19,
     title:
       "Thinking together through pictures: The community of philosophical enquiry and visual analysis as a transformative pedagogy",
-    type: "Article",
-    year: 2016,
+    type: "Research Article",
+    date: "Aug 2016",
     authors: ["Theresa Giorza"],
     journal: "Educational Research for Social Change",
     abstract:
@@ -245,8 +245,8 @@ const publications: Publication[] = [
   {
     id: 20,
     title: "Playing with Learning: Childhood Pedagogies for Higher Education",
-    type: "Chapter",
-    year: 2016,
+    type: "Book Chapter",
+    date: "Sep 2016",
     authors: ["Theresa Giorza"],
     book: "Citizen Scholar Pedagogies",
     abstract:
@@ -256,8 +256,8 @@ const publications: Publication[] = [
   {
     id: 21,
     title: "Visual Methodologies in Educational Research",
-    type: "Article",
-    year: 2015,
+    type: "Research Article",
+    date: "Oct 2015",
     authors: ["Theresa Giorza"],
     journal: "South African Journal of Education",
     abstract:
@@ -266,7 +266,7 @@ const publications: Publication[] = [
   },
 ];
 
-const publicationTypes = ["All", "Article", "Book", "Chapter"];
+const publicationTypes = ["All", "Article", "Book", "Book Chapter"];
 
 export default function PublicationsPage() {
   const [selectedType, setSelectedType] = useState("All");
@@ -317,7 +317,7 @@ export default function PublicationsPage() {
                   placeholder="Search publications..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="w-full pl-10 pr-4 py-6 rounded-xl focus:outline-none focus:ring-2 focus:ring-sage-300 focus:border-transparent"
+                  className="w-full pl-10 pr-4 py-6 bg-white border-stone-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-forest-green-500 focus:border-transparent"
                 />
               </div>
 
@@ -326,7 +326,7 @@ export default function PublicationsPage() {
                   value={selectedType}
                   onValueChange={(val) => setSelectedType(val)}
                 >
-                  <SelectTrigger className="px-4 py-6 border rounded-xl focus:outline-none focus:ring-2 focus:ring-sage-300 focus:border-transparent">
+                  <SelectTrigger className="px-4 py-6 border border-stone-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-forest-green-500 focus:border-transparent bg-white">
                     <Filter className="w-5 h-5 text-stone-400" />
                     <SelectValue placeholder="Filter" />
                   </SelectTrigger>

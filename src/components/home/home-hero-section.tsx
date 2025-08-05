@@ -17,14 +17,14 @@ export default function HomeHeroSection() {
               fill="url(#gradient1)"
               initial={{ pathLength: 0, opacity: 0 }}
               animate={{ pathLength: 1, opacity: 0.1 }}
-              transition={{ duration: 3, delay: 1 }}
+              transition={{ duration: 2, delay: 0.5 }}
             />
             <motion.path
               d="M0,600 Q300,500 500,600 T900,600 L900,1000 L0,1000 Z"
               fill="url(#gradient2)"
               initial={{ pathLength: 0, opacity: 0 }}
               animate={{ pathLength: 1, opacity: 0.08 }}
-              transition={{ duration: 3, delay: 1.5 }}
+              transition={{ duration: 2, delay: 1 }}
             />
             <defs>
               <linearGradient
@@ -34,7 +34,7 @@ export default function HomeHeroSection() {
                 x2="100%"
                 y2="100%"
               >
-                <stop offset="0%" stopColor="var(--sage-300)" />
+                <stop offset="0%" stopColor="var(--color-forest-green-300)" />
                 <stop offset="100%" stopColor="transparent" />
               </linearGradient>
               <linearGradient
@@ -44,7 +44,7 @@ export default function HomeHeroSection() {
                 x2="100%"
                 y2="100%"
               >
-                <stop offset="0%" stopColor="var(--cream-300)" />
+                <stop offset="0%" stopColor="var(--color-cream-300)" />
                 <stop offset="100%" stopColor="transparent" />
               </linearGradient>
             </defs>
@@ -54,13 +54,13 @@ export default function HomeHeroSection() {
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, ease: "easeOut" }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
         className="relative z-10 text-center px-4 max-4-4xl mx-auto"
       >
         <motion.h1
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1.2, delay: 0.3, ease: "easeOut" }}
+          transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
           className="font-serif text-5xl md:text-7xl lg:text-8xl font-light text-stone-800 mb-6 leading-tight"
         >
           Dr. Theresa Giorza
@@ -68,23 +68,23 @@ export default function HomeHeroSection() {
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.6, ease: "easeOut" }}
+          transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
           className="space-y-4"
         >
-          <p className="text-xl md:text-2xl text-stone-600 font-light">
+          <p className="text-xl md:text-2xl text-forest-green-600 font-light">
             Doctor of Philosophy in Education
           </p>
           <motion.div
             initial={{ width: 0 }}
             animate={{ width: "100%" }}
-            transition={{ duration: 1.5, delay: 1, ease: "easeOut" }}
-            className="h-px bg-gradient-to-r from-transparent via-sage-300 to-transparent max-w-md mx-auto"
+            transition={{ duration: 1.1, delay: 1, ease: "easeOut" }}
+            className="h-px bg-gradient-to-r from-transparent via-forest-green-300 to-transparent max-w-md mx-auto"
           />
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 1.3 }}
-            className="text-stone-500 text-lg max-w-2xl mx-auto leading-relaxed"
+            transition={{ duration: 0.8, delay: 1.3 }}
+            className="text-stone-600 text-lg max-w-2xl mx-auto leading-relaxed"
           >
             Exploring posthumanist pedagogies and transformative learning
             practices in early childhood education
