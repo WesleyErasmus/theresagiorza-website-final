@@ -78,6 +78,18 @@
   --color-earth-700: oklch(0.42 0.06 80);
   --color-earth-800: oklch(0.35 0.05 80);
   --color-earth-900: oklch(0.29 0.04 80);
+
+  /* Forest green */
+  --color-forest-green-50: oklch(95% 0.01 151);
+  --color-forest-green-100: oklch(88% 0.02 151);
+  --color-forest-green-200: oklch(76% 0.03 151);
+  --color-forest-green-300: oklch(64% 0.04 151);
+  --color-forest-green-400: oklch(50% 0.06 151);
+  --color-forest-green-500: oklch(37.7% 0.07 151); /* primary */
+  --color-forest-green-600: oklch(30% 0.06 151);
+  --color-forest-green-700: oklch(22% 0.05 151);
+  --color-forest-green-800: oklch(15% 0.04 151);
+  --color-forest-green-900: oklch(10% 0.02 151);
 }
 
 :root {
