@@ -53,7 +53,7 @@ export default function GalleryGrid({ galleryItems }: GalleryGridProps) {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="group relative h-64 bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl cursor-pointer"
+            className="group relative h-64 bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl cursor-pointer border border-stone-300"
             onClick={() => openLightbox(item)}
           >
             <div className="relative w-full h-full overflow-hidden">

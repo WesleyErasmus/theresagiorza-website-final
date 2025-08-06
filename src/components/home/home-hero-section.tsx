@@ -8,27 +8,33 @@ export default function HomeHeroSection() {
       <div className="absolute inset-0 bg-gradient-to-br from-sage-50 via-cream-50 to-stone-50">
         <div className="absolute inset-0 overflow-hidden">
           {/* Gray bg shapes */}
-          <svg
+          {/* Original 👇🏻 */}
+          {/* <svg
             className="absolute inset-0 w-full h-full"
             viewBox="0 0 1000 1000"
+          > */}
+          <svg
+            className="hidden lg:block absolute inset-0 w-full h-full"
+            viewBox="0 0 1000 1000"
+            preserveAspectRatio="none"
           >
             <motion.path
               d="M200,300 Q400,200 600,300 T1000,300 L1000,1000 L0,1000 Z"
-              fill="url(#gradient1)"
+              fill="url(#gradient1Desktop)"
               initial={{ pathLength: 0, opacity: 0 }}
               animate={{ pathLength: 1, opacity: 0.1 }}
               transition={{ duration: 2, delay: 0.5 }}
             />
             <motion.path
               d="M0,600 Q300,500 500,600 T900,600 L900,1000 L0,1000 Z"
-              fill="url(#gradient2)"
+              fill="url(#gradient2Desktop)"
               initial={{ pathLength: 0, opacity: 0 }}
               animate={{ pathLength: 1, opacity: 0.08 }}
               transition={{ duration: 2, delay: 1 }}
             />
             <defs>
               <linearGradient
-                id="gradient1"
+                id="gradient1Desktop"
                 x1="0%"
                 y1="0%"
                 x2="100%"
@@ -38,7 +44,49 @@ export default function HomeHeroSection() {
                 <stop offset="100%" stopColor="transparent" />
               </linearGradient>
               <linearGradient
-                id="gradient2"
+                id="gradient2Desktop"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="100%"
+              >
+                <stop offset="0%" stopColor="var(--color-cream-300)" />
+                <stop offset="100%" stopColor="transparent" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <svg
+            className="block lg:hidden absolute inset-0 w-full h-full"
+            viewBox="0 0 1000 1000"
+            preserveAspectRatio="xMidYMid slice"
+          >
+            <motion.path
+              d="M200,300 Q400,200 600,300 T1000,300 L1000,1000 L0,1000 Z"
+              fill="url(#gradient1Mobile)"
+              initial={{ pathLength: 0, opacity: 0 }}
+              animate={{ pathLength: 1, opacity: 0.1 }}
+              transition={{ duration: 2, delay: 0.5 }}
+            />
+            <motion.path
+              d="M0,600 Q300,500 500,600 T900,600 L900,1000 L0,1000 Z"
+              fill="url(#gradient2Mobile)"
+              initial={{ pathLength: 0, opacity: 0 }}
+              animate={{ pathLength: 1, opacity: 0.08 }}
+              transition={{ duration: 2, delay: 1 }}
+            />
+            <defs>
+              <linearGradient
+                id="gradient1Mobile"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="100%"
+              >
+                <stop offset="0%" stopColor="var(--color-forest-green-300)" />
+                <stop offset="100%" stopColor="transparent" />
+              </linearGradient>
+              <linearGradient
+                id="gradient2Mobile"
                 x1="0%"
                 y1="0%"
                 x2="100%"

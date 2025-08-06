@@ -11,7 +11,7 @@ export default function ContactForm() {
       initial={{ opacity: 0, x: -50 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.8, delay: 0.2 }}
-      className="max-w-3xl mx-auto bg-white/75 rounded-3xl p-8 border border-stone-300"
+      className="max-w-3xl mx-auto sm:bg-white/75 rounded-3xl p-0 sm:p-8 sm:border sm:border-stone-300"
     >
       <h2 className="text-2xl font-semibold text-stone-800 mb-6">
         Send a Message
