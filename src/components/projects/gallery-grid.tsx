@@ -10,7 +10,8 @@ export interface GalleryItem {
   id: number;
   title: string;
   image: string;
-  description: string;
+  project?: string;
+  description?: string;
   year: number;
 }
 
@@ -128,7 +129,11 @@ export default function GalleryGrid({ galleryItems }: GalleryGridProps) {
                     </span>
                   </div>
                   <p className="text-stone-700 leading-relaxed">
-                    {selectedItem.description}
+                    {/* {selectedItem.description} */}
+                    <span className="font-semibold text-black">
+                      Project:
+                    </span>{" "}
+                    {selectedItem.project}
                   </p>
                 </div>
               </div>
