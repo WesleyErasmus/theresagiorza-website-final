@@ -7,7 +7,7 @@ const galleryItems: GalleryItem[] = [
   {
     id: 1,
     title: "Chasing Paper",
-    image: "/figures/chasing-paper.png",
+    image: "/figures/Chasing-paper.png",
     project: "Videography as Refrain",
     // description:
     //   "Young learners exploring mark-making and creative expression in preschool environments",
