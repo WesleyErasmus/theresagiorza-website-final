@@ -53,7 +53,7 @@ export default function BookProductCard({ book }: BookProductCardProps) {
                 height={600}
                 src={book.coverImage}
                 alt={`Cover of ${book.title}`}
-                className="w-40 h-60 sm:w-48 sm:h-72 md:w-66 md:h-94 object-cover rounded-md shadow-md group-hover:scale-102 transition-transform duration-300"
+                className="w-40 h-60 sm:w-48 sm:h-72 md:w-66 md:h-94 object-cover border border-stone-300 rounded-md shadow-md group-hover:scale-102 transition-transform duration-300"
                 onClick={() => handleImageClick(book)}
               />
             </div>
