@@ -44,31 +44,32 @@ export default function ArticleCard({ publication }: ArticleCardProps) {
 
   const TypeIcon = getTypeIcon();
 
-  const getTypeColor = () => {
-    switch (publication.type) {
-      case "Research Article":
-        return "bg-forest-green-400 text-white";
-      case "Book":
-        return "bg-amber-700 text-white";
-      case "Book Chapter":
-        return "bg-earth-500 text-white";
-      default:
-        return "bg-forest-green-400 text-white";
-    }
-  };
-
+  // ***  SOLID BADGE ***
   // const getTypeColor = () => {
   //   switch (publication.type) {
   //     case "Research Article":
-  //       return "bg-forest-green-100 text-forest-green-500";
+  //       return "bg-forest-green-400 text-white";
   //     case "Book":
-  //       return "bg-amber-100 text-amber-700";
+  //       return "bg-amber-700 text-white";
   //     case "Book Chapter":
-  //       return "bg-earth-100 text-earth-600";
+  //       return "bg-earth-500 text-white";
   //     default:
-  //       return "bg-forest-green-100 text-forest-green-500";
+  //       return "bg-forest-green-400 text-white";
   //   }
   // };
+
+  const getTypeColor = () => {
+    switch (publication.type) {
+      case "Research Article":
+        return "bg-forest-green-100 text-forest-green-500";
+      case "Book":
+        return "bg-cream-300 text-cream-800";
+      case "Book Chapter":
+        return "bg-earth-200 text-earth-600";
+      default:
+        return "bg-forest-green-100 text-forest-green-500";
+    }
+  };
 
   return (
     //  {/* TODO: ** Add Link here around whole card */}
@@ -107,7 +108,8 @@ export default function ArticleCard({ publication }: ArticleCardProps) {
 
           <div className="flex flex-wrap items-center gap-4 text-sm text-foreground">
             <span
-              className={`px-3 py-1 ${getTypeColor()} rounded-full text-xs`}
+              // className={`px-3 py-1 ${getTypeColor()} rounded-full text-xs`}
+              className={`px-3 py-1 ${getTypeColor()} rounded-full font-medium text-xs`}
             >
               {publication.type}
             </span>
@@ -133,15 +135,15 @@ export default function ArticleCard({ publication }: ArticleCardProps) {
           {/* <p className="text-stone-700">~ {publication.abstract}</p> */}
         </div>
 
-        <div className="flex-shrink-0 flex lg:flex-col gap-2">
+        <div className="flex flex-shrink-0 lg:justify-center lg:flex-col gap-2">
           {/* TODO: ** Add Link here */}
           <Button
             size={"sm"}
-            variant={"link"}
-            className="text-forest-green-500 hover:text-blue-700 cursor-pointer"
+            variant={"default"}
+            className="bg-earth-500 w-[200] rounded-full text-white hover:bg-earth-400 hover:shadow-lg cursor-pointer"
           >
             <ExternalLink className="w-4 h-4" strokeWidth={2} />
-            <span className="text-sm">View</span>
+            <span className="text-sm">View {publication.type}</span>
           </Button>
         </div>
       </div>
