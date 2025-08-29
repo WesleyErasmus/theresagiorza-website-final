@@ -1,6 +1,7 @@
 "use client";
 
 import GalleryGrid, { GalleryItem } from "@/components/projects/gallery-grid";
+import { ProjectCardExamples } from "@/components/projects/project-card";
 import { motion } from "motion/react";
 
 const galleryItems: GalleryItem[] = [
@@ -191,6 +192,7 @@ export default function ProjectsPage() {
           </motion.div>
           <GalleryGrid galleryItems={galleryItems} />
         </div>
+        <ProjectCardExamples />
       </section>
     </main>
   );
