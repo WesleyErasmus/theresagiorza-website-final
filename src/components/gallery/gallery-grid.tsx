@@ -61,7 +61,7 @@ export default function GalleryGrid({ galleryItems }: GalleryGridProps) {
                 src={item.image}
                 alt={item.title}
                 fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
+                className="object-cover scale-110 group-hover:scale-115 transition-transform duration-500"
               />
 
               <div className="absolute inset-0 bg-gradient-to-t from-stone-800/80 via-transparent to-transparent opacity-100 group-hover:opacity-100 transition-opacity duration-300" />
