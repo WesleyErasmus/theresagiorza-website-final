@@ -313,13 +313,13 @@ export function ProjectCardExamples() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-sage-50 to-cream-50 py-16">
+    <div className="min-h-screen bg-gradient-to-br from-sage-50 to-cream-50 ">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="font-serif text-3xl lg:text-4xl font-light text-stone-800 mb-12 text-center">
-          Archive Projects
-        </h2>
+        {/* <h2 className="font-serif text-3xl lg:text-4xl font-light text-stone-800 mb-12 text-center">
+          Projects
+        </h2> */}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="columns-1 md:columns-2 gap-8 space-y-8">
           {exampleProjects.map((project, index) => (
             <ProjectCard
               key={index}
